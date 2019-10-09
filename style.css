@@ -1,0 +1,170 @@
+body{
+	background-color: #2E323D
+}
+h1{
+	color: #FDECAC;
+	text-align: center; 
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 100px;
+	margin: 10px auto;
+}
+h2 { 
+	color:  #2E323D;
+	background-color: #FDECAC;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+	text-align: center; 
+	font-size: 30px;
+	letter-spacing: 1px;
+	font-family: 'Big Shoulders Text', cursive;
+}
+td{
+	color: white;
+	text-align: center;
+	margin: 10px 10px;
+	padding: 10px 35px;
+}
+i{
+	font-size: 40px;
+	margin:8px;
+	}
+li{
+	margin: 4px;
+	text-align: justify;
+}
+
+hr{
+	width: 500px;
+	border: 2px #FDECAC solid;
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+}
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+
+}
+
+.card-blueshadow {
+	color: #ffffff;
+	background-color: #4E5669;
+	font-family: 'Roboto', cursive;
+	box-shadow: 0 10px 30px #4E5669;
+}
+.card-top {
+	color: #ffffff;
+	background-color: #2E323D;
+	width:400px;
+	font-family: 'Roboto', cursive;
+	margin: 10px 10px;
+	font-family: 'Roboto', cursive;
+	text-align: center;
+	padding: 10px 10px;
+}
+
+#subtitle{
+	color: #ffffff;
+	text-align: center; 
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 30px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+  color: white;
+}
+.list-inline > li {
+  display: inline; 
+  padding: 0px 20px;
+  color: white;
+  }
+
+.list-inline i{
+	font-size: 40px;
+	color: rgb(210,210,210);
+}
+
+.list-inline i:hover {
+	color: #6772e5;
+}
+.table {
+	background-color: #4E5669;
+	margin: 10px 10px;
+	font-family: 'Roboto', cursive;
+	text-align: center;
+	padding: 10px 10px;
+}
+.box {
+	background-color: #4E5669;
+	width:290px;
+	margin: 10px 10px;
+	font-family: 'Roboto', cursive;
+	text-align: center;
+	padding: 10px 10px;
+}
+
+  
+#container-left{
+	width: 260px;
+	background-color: #2E323D
+	box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+}
+#menu-right{
+	float:right;
+	width:240px;
+	box-shadow: 0 10px 30px #4E5669;
+	background-color: #2E323D;
+	font-family: 'Roboto', cursive;
+	text-align: center;
+	margin-right: 50px;
+}
+
+#table {
+	background-color: #4E5669;
+	margin: 10px 10px;
+	color: #ffffff;
+	font-family: 'Roboto', cursive;
+	text-align: center;
+	padding: 10px 10px;
+	}
+
+.link-shadow:hover{
+	box-shadow: 0 5px 10px #ac8daf;
+	margin-top: 5px;
+}
+.link {
+	color: #ac8daf;
+}
+
+#img-left {
+	margin:10px;
+}
+
+
+
+#img-below{
+	margin: 20px;
+}	
+
+
+
+
+
+
+
+
+
