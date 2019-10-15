@@ -43,32 +43,45 @@ hr{
 	margin: 40px auto;
 	box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
-}
+
+
 @media (max-width: 700px) {
   .container {
-    width: 500px;
+    width: 400px;
   }
 }
+
 @media (max-width: 500px) {
   .container {
     width: 300px;
   }
+   }  
 
-}
+@media (max-width: 700px) {
+  .video {
+    width: 300px;
+  } 
+    } 
+
+@media (max-width: 500px) {
+  .video {
+    width: 150px;
+  }
+    }
 
 .card-blueshadow {
 	color: #ffffff;
 	background-color: #4E5669;
-	font-family: 'Roboto', cursive;
+	font-family: 'Karla', cursive;
 	box-shadow: 0 10px 30px #4E5669;
 }
 .card-top {
 	color: #ffffff;
 	background-color: #2E323D;
 	width:400px;
-	font-family: 'Roboto', cursive;
+	font-family: 'Karla', cursive;
 	margin: 10px 10px;
-	font-family: 'Roboto', cursive;
+	font-family: 'Karla', cursive;
 	text-align: center;
 	padding: 10px 10px;
 }
@@ -104,7 +117,7 @@ hr{
 .table {
 	background-color: #4E5669;
 	margin: 10px 10px;
-	font-family: 'Roboto', cursive;
+	font-family: 'Karla', cursive;
 	text-align: center;
 	padding: 10px 10px;
 }
@@ -112,7 +125,7 @@ hr{
 	background-color: #4E5669;
 	width:290px;
 	margin: 10px 10px;
-	font-family: 'Roboto', cursive;
+	font-family: 'Karla', cursive;
 	text-align: center;
 	padding: 10px 10px;
 }
@@ -128,7 +141,7 @@ hr{
 	width:240px;
 	box-shadow: 0 10px 30px #4E5669;
 	background-color: #2E323D;
-	font-family: 'Roboto', cursive;
+	font-family: 'Karla', cursive;
 	text-align: center;
 	margin-right: 50px;
 }
@@ -137,7 +150,7 @@ hr{
 	background-color: #4E5669;
 	margin: 10px 10px;
 	color: #ffffff;
-	font-family: 'Roboto', cursive;
+	font-family: 'Karla', cursive;
 	text-align: center;
 	padding: 10px 10px;
 	}
