@@ -1,6 +1,7 @@
 body{
-	background-color: #2E323D
+	background-color: #2E323D;
 }
+
 h1{
 	color: #FDECAC;
 	text-align: center; 
@@ -37,7 +38,25 @@ hr{
 	border: 2px #FDECAC solid;
 }
 
+@media (max-width: 700px) {
+ hr {
+    width: 300px;
+  }
+   }  
+ @media (max-width: 500px) {
+ hr {
+    width: 150px;
+  }
+   } 
+
+ 
+
+
+
+
+
 /* Custom design with class */
+
 .container {
 	width: 700px;
 	margin: 40px auto;
@@ -53,7 +72,8 @@ hr{
 
 @media (max-width: 500px) {
   .container {
-    width: 300px;
+    width: 350px;
+    text-align: center;
   }
    }  
 
@@ -114,46 +134,22 @@ hr{
 .list-inline i:hover {
 	color: #6772e5;
 }
-.table {
-	background-color: #4E5669;
-	margin: 10px 10px;
-	font-family: 'Karla', cursive;
-	text-align: center;
-	padding: 10px 10px;
-}
+
 .box {
 	background-color: #4E5669;
-	width:290px;
-	margin: 10px 10px;
 	font-family: 'Karla', cursive;
 	text-align: center;
 	padding: 10px 10px;
-}
+	margin: 10px 10px;
+} 
 
-  
-#container-left{
-	width: 260px;
-	background-color: #2E323D
-	box-shadow: 0 10px 30px rgba(0,0,0,.1); 
-}
-#menu-right{
-	float:right;
-	width:240px;
-	box-shadow: 0 10px 30px #4E5669;
-	background-color: #2E323D;
-	font-family: 'Karla', cursive;
-	text-align: center;
-	margin-right: 50px;
-}
-
-#table {
+.box-table {
 	background-color: #4E5669;
-	margin: 10px 10px;
-	color: #ffffff;
 	font-family: 'Karla', cursive;
 	text-align: center;
 	padding: 10px 10px;
-	}
+	margin: 10px 10px;
+} 
 
 .link-shadow:hover{
 	box-shadow: 0 5px 10px #ac8daf;
@@ -163,21 +159,7 @@ hr{
 	color: #ac8daf;
 }
 
-#img-left {
-	margin:10px;
-}
-
-
-
 #img-below{
 	margin: 20px;
 }	
-
-
-
-
-
-
-
-
 
